@@ -1,0 +1,14 @@
+//Variables
+$blue-sea: #006ba6;
+$blue-sky: #0496ff;
+$yellow: #ffbc42;
+$ruby: #d81159;
+$magenta: #8f2d56;
+
+html, body {
+    background-color: $blue-sky;
+    main {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
