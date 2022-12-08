@@ -20,5 +20,5 @@ const closeTab = () => {
 }
 
 const help = () => {
-    alert('Good job!', 'Youclicked the button', 'success')
+    alert('Just press the big refresh button!')
 }
