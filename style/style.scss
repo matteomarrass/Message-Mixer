@@ -4,11 +4,58 @@ $blue-sky: #0496ff;
 $yellow: #ffbc42;
 $ruby: #d81159;
 $magenta: #8f2d56;
+$sans-serif: 'Roboto', sans-serif;
+$serif: 'Playfair Display', serif;
+
 
 html, body {
     background-color: $blue-sky;
+    h1, h2 {
+        font-family: $sans-serif;
+        color: $blue-sea;
+    }
+    p {
+        font-family: $serif;
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
     main {
+        padding: 0 0 3rem 0;
+        background-color: #006ba6;
         text-align: center;
+        width: 50%;
+        height: auto;
         margin: 0 auto;
+        border-radius: 0.8rem;
+        border: solid 1rem #ffffff;
+    }
+    #computer-bar {
+        padding: .5rem 0;
+    }
+    #welcome {
+        background-color: #ffffff;
+    }
+    #buttons{
+        button {
+            background-color: transparent;
+            border: none;   
+        }
+    }
+    #container-all {
+        background-color: $magenta;
+        padding: 2rem;
+        margin: 3rem;
+        border-radius: .8rem;
+        border: solid 2px #ffffff;
+        #numbers {
+            font-family: $serif;
+            font-size: 3rem;
+            color: $yellow;
+        }
+        #check {
+            padding: 1rem;
+            background-color: transparent;
+            border: none;
+        }
     }
 }

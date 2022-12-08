@@ -8,11 +8,29 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./src/images/favicon.ico">
     <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <h1>Welcome to my Mixer Messages Project!</h1>
-        <h2>Let's try the fortune with me! CIAO!</h2>    
+        <section id="computer-bar">
+            <div id="buttons">
+                <button onclick="help()"><img src="https://img.icons8.com/bubbles/100/null/help.png"/></button>
+                <button onclick="closeTab()"><img src="https://img.icons8.com/bubbles/100/null/exit.png"/></button>
+            </div>    
+        </section>
+        <div id="welcome">
+            <h1>Welcome to my Mixer Numbers Project!</h1>
+            <h2>Let's try the fortune with me!</h2>    
+        </div>
+        <section id="container-all">
+            <p>Here we have your numbers! Let us know if they will be the right ones!</p>
+            <div id="numbers">Check your numbers!</div>
+            <label for="check"></label>
+            <button id="check" onclick="giveMeNumbers()"><img src="https://img.icons8.com/bubbles/100/null/process.png"/></button>
+            <p>If any of this numbers helped you to win the lottery, we will be more than happy to recieve a 20% commission on your win! Have a nice day!</p>
+        </section>
     </main>
     <script src="./home.js"></script>
 </body>
