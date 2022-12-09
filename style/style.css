@@ -14,7 +14,7 @@ html main, body main {
   padding: 0 0 3rem 0;
   background-color: #006ba6;
   text-align: center;
-  width: 50%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   border-radius: 0.8rem;
@@ -32,15 +32,29 @@ html #buttons button, body #buttons button {
 }
 html #container-all, body #container-all {
   background-color: #8f2d56;
-  padding: 2rem;
-  margin: 3rem;
+  padding: 4rem;
+  margin: 4rem;
   border-radius: 0.8rem;
   border: solid 2px #ffffff;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  html #container-all, body #container-all {
+    border: none;
+    background-color: #006ba6;
+    padding: 1rem;
+    margin: 1rem;
+  }
 }
 html #container-all #numbers, body #container-all #numbers {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   color: #ffbc42;
+  word-wrap: break-word;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  html #container-all #numbers, body #container-all #numbers {
+    margin: 1rem;
+  }
 }
 html #container-all #check, body #container-all #check {
   padding: 1rem;
